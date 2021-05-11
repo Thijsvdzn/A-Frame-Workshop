@@ -10,12 +10,35 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
+        width="50"
+        height="1"
+        depth="50"
+        position="0 -3 0"
         color="#BBAA33" 
         shadow>
       </a-box>
+      <a-cone id="myCone"
+              width="1"
+              height="3"
+              depth="3"
+              rotation="180 0 0"
+              position="0 0 -3"
+              color="green">
+      </a-cone>
+      <a-cone id="myCone2"
+              width="3"
+              height="3"
+              depth="3"
+              position="0 3 -3"
+              color="green">
+      </a-cone>
+      <a-torus-knot id="muTorusKnot"
+                width="3"
+                height="3"
+                depth="3"
+                position="0 3 -7"
+                color="brown">
+     </a-torus-knot>
     </a-scene>
   </body>
 </html>
